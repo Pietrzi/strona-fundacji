@@ -9,9 +9,14 @@
 }
 
 body {
-    background-color: black;
+    background-color: #111;
     color: white;
     font-family: 'Roboto', sans-serif;
+}
+
+.body-wrapper {
+    width: 100vw;
+    position: relative;
 }
 
 section {

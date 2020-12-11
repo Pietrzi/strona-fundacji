@@ -15,6 +15,7 @@ class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
+        <div className="body-wrapper">
         <Navbar />
         <Switch>
           <Route exact path='/' component={Home} />
@@ -23,6 +24,7 @@ class App extends React.Component {
           <Route path='/wsparcie' component={Support} />
           <Route path='/kontakt' component={Contact} />
         </Switch>
+        </div>
       </BrowserRouter>
     )
   }
