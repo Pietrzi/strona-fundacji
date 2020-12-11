@@ -1,0 +1,38 @@
+.about-section {
+    background-color: #111111;
+    height: auto;
+    padding-top: 100px;
+
+    .team-container {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .member-box {
+            width: 260px;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            img {
+                max-width: 100%;
+                object-fit: fill;
+            }
+
+            .member-name {
+                font-size: 24px;
+                margin-top: 10px;
+            }
+
+            .member-title {
+                font-size: 18px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
