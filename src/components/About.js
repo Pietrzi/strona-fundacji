@@ -90,11 +90,32 @@ const About = () => {
                     <p className="statut-text narrow">16. psychoedukacja dzieci, młodzieży i dorosłych (różnych grup społecznych);</p>
                     <p className="statut-text narrow">17. aktywizacja seniorów poprzez włączanie ich w pomoc organizowaną dla dzieci;</p>
                     <p className="statut-text narrow">18. organizowanie zbiórek na rzecz podopiecznych Fundacji;</p>
-                    <p className="statut-text narrow">19organizowanie akcji mających na celu pomoc potrzebujących dzieci;</p>
+                    <p className="statut-text narrow">19. organizowanie akcji mających na celu pomoc potrzebujących dzieci;</p>
                     <p className="statut-text narrow">20. uwrażliwianie dzieci na nierówności społeczne i zachęcanie do pomocy i wsparcia 
                                                 dla rówieśników w trudniejszej sytuacji życiowej;</p>
                     <p className="statut-text narrow">21. współpraca z Placówkami Opiekuńczo-Wychowawczymi w celu wyrównywania szans w dostępie 
                                                 do edukacji, sportu i dóbr kultury dla jej ich podopiecznych;</p>
+                    <p className="statut-text narrow">rozwijanie świadomości zdrowego stylu i trybu życia poprzez wiedzę o odżywianiu, zdrowiu i kondycji 
+                                                psychicznej u dzieci i młodzieży.</p>
+                    <h3 className="statut-bold-title">Rozdział III</h3>
+                    <h3 className="statut-bold-title">Majątek Fundacji</h3>
+                    <h3 className="statut-number-title">7.</h3>
+                    <p className="statut-text narrow">1. Majątek Fundacji stanowi kapitał założycielski w kwocie 2000 (dwa tysiące) złotych przyznanej przez 
+                                                Fundatora oraz środki finansowe, prawa majątkowe, nieruchomości i ruchomości nabyte przez Fundację w trakcie 
+                                                jej działania;</p>
+                    <p className="statut-text narrow">2. Fundacja odpowiada za zobowiązania całym swoim majątkiem.</p>
+                    <p className="statut-text narrow">3. Całość uzyskiwanych przez Fundację dochodów przeznaczone jest wyłącznie na realizację jej celów statutowych.</p>
+                    <p className="statut-text narrow">4. W ramach majątku Fundacji na prowadzenie działalności gospodarczej Rada Fundacji przeznacza kwotę 1000 (jeden tysiąc) zł.</p>
+                    <h3 className="statut-number-title">8.</h3>
+                    <p className="statut-text narrow"> - Dochody Fundacji pochodzą z:</p>
+                    <p className="statut-text narrow"> - dotacji, spadków, zapisów, ofiarności publicznej, darowizn oraz innego rodzaju aktywów majątkowych poczynionych na dobro 
+                                                Fundacji przez osoby fizyczne i prawne z kraju i zagranicy;</p>
+                    <p className="statut-text narrow"> - dochodów ze zbiórek i imprez publicznych;</p>
+                    <p className="statut-text narrow"> - - dochodów z działalności odpłatnej;</p>
+                    <p className="statut-text narrow"> - dochodów z majątku Fundacji;</p>
+                    <p className="statut-text narrow"> - dochodów z działalności gospodarczej;</p>
+                    <p className="statut-text narrow"> - innych źródeł określonych każdorazowo uchwałą Rady Fundacji</p>
+                    <h3 className="statut-number-title">9.</h3>
                 </div>
             </div>
         </section>
