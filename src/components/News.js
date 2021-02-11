@@ -3,9 +3,9 @@ import React from 'react'
 const News = () => {
     return (
         <section>
-            <h1>Aktualności</h1>
+            <h1>Wolontariat</h1>
         </section>
     )
 }
 
-export default News
+export default News;

@@ -12,11 +12,11 @@ const Navbar = () => {
                     <NavLink to='/ofundacji'>O fundacji</NavLink>
                 </li>
                 <li>
-                    <NavLink to='/aktualnosci'>Aktualności</NavLink>
+                    <NavLink to='/wolontariat'>Wolontariat</NavLink>
                 </li>
-                <li>
+                {/* <li>
                     <NavLink to='/wsparcie'>Wsparcie</NavLink>
-                </li>
+                </li> */}
                 <li>
                     <NavLink to='/kontakt'>Kontakt</NavLink>
                 </li>

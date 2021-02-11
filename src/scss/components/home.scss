@@ -4,8 +4,29 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url('../../assets/poorkid.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: white;
+
+    .logo-holder {
+        margin-top: 100px;
+        height: 350px;
+        background-image: url('../../assets/logobiel.jpg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .header-text {
+        width: 700px;
+        position: absolute;
+        top: 500px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 5;
+        color: darkblue;
+        letter-spacing: 1px;
+
+        .author {
+            text-align: end;
+        }
+    }
 }
