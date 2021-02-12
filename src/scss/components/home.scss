@@ -16,14 +16,16 @@ header {
     }
 
     .header-text {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 1.4rem;
         width: 700px;
         position: absolute;
         top: 500px;
         left: 50%;
         transform: translateX(-50%);
         z-index: 5;
-        color: darkblue;
-        letter-spacing: 1px;
+        color: #253789;
+        letter-spacing: 2px;
 
         .author {
             text-align: end;
