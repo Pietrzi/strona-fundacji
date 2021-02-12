@@ -14,9 +14,9 @@ const Navbar = () => {
                 <li>
                     <NavLink to='/wolontariat'>Wolontariat</NavLink>
                 </li>
-                {/* <li>
-                    <NavLink to='/wsparcie'>Wsparcie</NavLink>
-                </li> */}
+                <li>
+                    <NavLink to='/wsparcie'>Wesprzyj</NavLink>
+                </li>
                 <li>
                     <NavLink to='/kontakt'>Kontakt</NavLink>
                 </li>

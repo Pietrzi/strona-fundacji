@@ -1,0 +1,37 @@
+.volunteer-section {
+    height: auto;
+    padding-top: 100px;
+    display: block;
+    background-color: white;
+    color: black;
+
+    .volunteer-text-box {
+        width: 60%;
+        margin: 30px auto 0;
+        font-size: 1.3rem;
+        line-height: 25px;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+
+    .top-volunteer {
+        margin: 90px auto 0;
+    }
+
+    .volunteer-text {
+        text-indent: 50px;
+        margin-bottom: 10px;
+        text-align: justify;
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+    .volunteer-topic {
+        margin: 20px 0 20px;
+        font-size: 1.4rem;
+        color: #253789;
+        font-weight: 700;
+    }
+}
