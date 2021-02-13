@@ -6,4 +6,23 @@
     align-items: center;
     background-color: white;
     color: #253789;
+
+    .support-container {
+        height: 250px;
+        width: 600px;
+        border: 2px solid #253789;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        h2 {
+            margin-left: 20px;
+            font-size: 1.8rem;
+        }
+
+        h3 {
+            margin-left: 20px;
+            font-size: 1.4rem;
+        }
+    }
 }
