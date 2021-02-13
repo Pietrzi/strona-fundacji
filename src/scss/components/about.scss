@@ -1,4 +1,30 @@
 .about-section {
+
+    .mission-holder {
+        width: 60%;
+        margin: 50px auto 20px;
+    
+        .mission-text {
+            font-family: 'Yanone Kaffeesatz', sans-serif;
+            font-size: 2rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-align: center;
+            line-height: 35px;
+            margin-bottom: 20px;
+        }
+
+        .mission-text-second {
+            margin-bottom: 40px;
+        }
+    
+        hr {
+            border-top: solid 2px #253789;
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+
     height: auto;
     padding-top: 100px;
     display: block;
@@ -31,6 +57,7 @@
             .member-name {
                 font-size: 24px;
                 margin-top: 10px;
+                color: #253789;
             }
 
             .member-title {
@@ -50,6 +77,7 @@
             text-align: center;
             font-size: 2.2rem;
             margin-bottom: 40px;
+            color: #253789;
         }
 
         .statut-text-holder {
@@ -63,6 +91,7 @@
             .statut-number-title {
                 text-align: center;
                 margin-bottom: 10px;
+                color: #253789;
             }
 
             .statut-text {

@@ -6,7 +6,18 @@ import basia from '../assets/basia.jpg';
 
 const About = () => {
     return (
-        <section className="about-section">            
+        <section className="about-section">
+            <div className="mission-holder">
+                <p className="mission-text">
+                    Naszą misją jest uczynić widzialnymi wszystkie te dzieci, które „znikają” w systemie edukacji. 
+                    Często trudności z nauką lub drobne zaległości kwalifikują dziecko jako „leniwe” i skazują na traumę 
+                    w szkole. Bezradne dzieci, które często nie mają do kogo zwrócić się w domu po pomoc, a w szkole 
+                    wstydzą się o nią prosić, stają się niewidzialne i tracą szanse na wymarzoną przyszłość. Dajemy im narzędzia 
+                    w postaci korepetycji i dostępu do zajęć dodatkowych, aby mogły budować sobie taką drogę, jakiej pragną.
+                </p>
+                <p className="mission-text mission-text-second">Wszystkie dzieci mogą latać, wystarczy tylko umożliwić im rozwinięcie skrzydeł.</p>
+                <hr></hr>
+            </div>
             <div className="team-container">
                 <div className="member-box">
                     <img src={marta} alt="marta" className="member-img"/>
