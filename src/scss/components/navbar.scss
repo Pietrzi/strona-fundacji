@@ -10,12 +10,22 @@ nav {
     align-items: center;
     z-index: 99;
 
+    @media(max-width: 650px) {
+        height: 80px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
     ul {
         width: 850px;
         height: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @media(max-width: 650px) {
+            display: none;
+        }
 
         li {
             list-style-type: none;
