@@ -8,15 +8,26 @@ import About from './components/About';
 import Volunteer from './components/Volunteer';
 import Support from './components/Support';
 import Contact from './components/Contact';
+import SideMenu from './components/SideMenu';
 
 class App extends React.Component {
 
+  state = {
+    sideMenu: false
+  };
+
+  sideMenuClickHandler = () => {
+    this.setState(prevState => {
+      return { sideMenu: !prevState.sideMenu }
+    })
+  }
 
   render() {
     return (
       <BrowserRouter>
         <div className="body-wrapper">
-        <Navbar />
+        <Navbar menuHandler={this.sideMenuClickHandler} />
+        <SideMenu show={this.state.sideMenu} click={this.sideMenuClickHandler}/>
         <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/ofundacji' component={About} />

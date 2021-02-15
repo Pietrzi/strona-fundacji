@@ -24,7 +24,7 @@ header {
         font-size: 1.4rem;
         width: 700px;
         position: absolute;
-        top: 350px;
+        top: 500px;
         left: 50%;
         transform: translateX(-50%);
         z-index: 5;
@@ -34,6 +34,7 @@ header {
         @media(max-width: 650px) {
             width: 80%;
             font-size: 0.8rem;
+            top: 350px;
         }
 
         .author {
