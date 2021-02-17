@@ -9,13 +9,18 @@ const About = () => {
         <section className="about-section">
             <div className="mission-holder">
                 <p className="mission-text">
-                    Naszą misją jest uczynić widzialnymi wszystkie te dzieci, które „znikają” w systemie edukacji. 
-                    Często trudności z nauką lub drobne zaległości kwalifikują dziecko jako „leniwe” i skazują na traumę 
-                    w szkole. Bezradne dzieci, które często nie mają do kogo zwrócić się w domu po pomoc, a w szkole 
-                    wstydzą się o nią prosić, stają się niewidzialne i tracą szanse na wymarzoną przyszłość. Dajemy im narzędzia 
-                    w postaci korepetycji i dostępu do zajęć dodatkowych, aby mogły budować sobie taką drogę, jakiej pragną.
+                Wykluczenie edukacyjne to sytuacja, w której dziecko nie realizuje swojego potencjału rozwojowego z przyczyn 
+                pozostających częściowo lub całkowicie poza jego wpływem. Przyczyny ekonomiczne i środowiskowe odbierają 
+                dzieciakom szanse na korzystanie z edukacji na równi z rówieśnikami. Trudności z nauką lub drobne zaległości 
+                kwalifikują dziecko jako „leniwe” i skazują na traumę w szkole. Bezradne dzieci, które w domu nie mają do kogo 
+                zwrócić się po pomoc, a w szkole wstydzą się o nią prosić, stają się niewidzialne i tracą szanse na wymarzoną 
+                przyszłość.
                 </p>
-                <p className="mission-text mission-text-second">Wszystkie dzieci mogą latać, wystarczy tylko umożliwić im rozwinięcie skrzydeł.</p>
+                <p className="mission-text">Naszą misją jest uczynić wszystkie te dzieci widzialnymi.</p>
+                <p className="mission-text mission-text-second">
+                    Dajemy młodym ludziom narzędzia w postaci korepetycji i dostępu do zajęć dodatkowych, aby mogły budować sobie 
+                    taką przyszłość, o jakiej marzą. Wszystkie dzieci mogą latać, wystarczy tylko umożliwić im rozwinięcie skrzydeł.
+                </p>
                 <hr></hr>
             </div>
             <div className="team-container">

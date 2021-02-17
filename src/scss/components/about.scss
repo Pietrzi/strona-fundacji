@@ -3,6 +3,11 @@
     .mission-holder {
         width: 60%;
         margin: 50px auto 20px;
+
+        @media(max-width: 650px) {
+            width: 80%;
+            margin: 10px auto 20px;
+        }
     
         .mission-text {
             font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -12,10 +17,21 @@
             text-align: center;
             line-height: 35px;
             margin-bottom: 20px;
+
+            @media(max-width: 650px) {
+                font-size: 1.5rem;
+                letter-spacing: 1px;
+                margin-bottom: 10px;
+                line-height: 30px;
+            }
         }
 
         .mission-text-second {
             margin-bottom: 40px;
+
+            @media(max-width: 650px) {
+                margin-bottom: 30px;
+            }
         }
     
         hr {
@@ -78,11 +94,19 @@
             font-size: 2.2rem;
             margin-bottom: 40px;
             color: #253789;
+
+            @media(max-width: 650px) {
+                font-size: 1.7rem;
+            }
         }
 
         .statut-text-holder {
             width: 50%;
             margin: 0 auto;
+            
+            @media(max-width: 650px) {
+                width: 80%;
+            }
 
             h3 {
                 margin-top: 20px;
