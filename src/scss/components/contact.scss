@@ -14,11 +14,20 @@
         justify-content: center;
         flex-wrap: wrap;
 
+        @media(max-width: 1050px) {
+            margin: 0 auto;
+        }
+
         @media(max-width: 650px) {
                 margin: 0 auto;
         }
 
         .phone-box {
+
+            @media(max-width: 1050px) {
+                position: relative;
+                bottom: 20px;
+            }
 
             @media(max-width: 650px) {
                 position: relative;
@@ -65,6 +74,11 @@
             position: relative;
             bottom: 80px;
             margin-left: 40px;
+
+            @media(max-width: 1050px) {
+                bottom: -20px;
+                margin-left: 0;
+            }
 
             @media(max-width: 650px) {
                 width: 300px;

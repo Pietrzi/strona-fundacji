@@ -73,7 +73,7 @@ const News = () => {
                     niezrozumiałego materiału. A także na rozmowę o tym, co ważne, udzieleniu odpowiedzi na trudne dziecięce 
                     pytania, wyjaśnieniu jak działa świat. 
                 </p>
-                <p className="volunteer-text">Razem możemy dać dzieciakom narzędzia do zbudowania przyszłości, o jakiej marzą. Jesteś zainteresowany? 
+                <p className="volunteer-text last-volunteer">Razem możemy dać dzieciakom narzędzia do zbudowania przyszłości, o jakiej marzą. Jesteś zainteresowany? 
                     Napisz do nas: <span>wolontariat@widzialnedzieci.pl</span>
                 </p>
             </div>

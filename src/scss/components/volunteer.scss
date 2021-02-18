@@ -5,6 +5,10 @@
     background-color: white;
     color: black;
 
+    @media(max-width: 1050px) {
+        padding-top: 20px;
+    }
+
     @media(max-width: 650px) {
         padding-top: 20px;
     }
@@ -16,6 +20,13 @@
         line-height: 25px;
         letter-spacing: 1px;
         font-weight: 500;
+
+        @media(max-width: 1050px) {
+            width: 70%;
+            font-size: 1.2rem;
+            line-height: 23px;
+            margin: 0 auto;
+        }
 
         @media(max-width: 650px) {
             width: 85%;
@@ -41,6 +52,12 @@
         span {
             font-weight: 700;
         }
+
+        
+    }
+
+    .last-volunteer {
+        margin-bottom: 20px;
     }
 
     .volunteer-topic {
@@ -55,3 +72,4 @@
         }
     }
 }
+

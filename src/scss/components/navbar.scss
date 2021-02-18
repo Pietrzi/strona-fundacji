@@ -10,6 +10,12 @@ nav {
     align-items: center;
     z-index: 99;
 
+    @media(max-width: 1050px) {
+        height: 80px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
     @media(max-width: 650px) {
         height: 80px;
         justify-content: flex-end;
@@ -23,7 +29,7 @@ nav {
         justify-content: space-between;
         align-items: center;
 
-        @media(max-width: 650px) {
+        @media(max-width: 1050px) {
             display: none;
         }
 
