@@ -1,0 +1,42 @@
+footer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .socials-holder {
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+
+
+        .face {
+            width: 40px;
+            height: 40px;
+            background-image: url('../../assets/fc.png');
+            background-position: center;
+            background-size: cover;
+            cursor: pointer;
+
+            @media(max-width: 650px) {
+                width: 35px;
+                height: 35px;
+            }
+        }
+
+        .inst {
+            width: 40px;
+            height: 40px;
+            background-image: url('../../assets/inst.png');
+            background-position: center;
+            background-size: cover;
+            cursor: pointer;
+
+            @media(max-width: 650px) {
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+}

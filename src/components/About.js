@@ -9,8 +9,8 @@ const About = () => {
         <section className="about-section">
             <div className="mission-holder">
                 <p className="mission-text">
-                Wykluczenie edukacyjne to sytuacja, w której dziecko nie realizuje swojego potencjału rozwojowego z przyczyn 
-                pozostających częściowo lub całkowicie poza jego wpływem. Przyczyny ekonomiczne i środowiskowe odbierają 
+                <span>Wykluczenie edukacyjne to sytuacja, w której dziecko nie realizuje swojego potencjału rozwojowego z przyczyn 
+                pozostających częściowo lub całkowicie poza jego wpływem.</span> Przyczyny ekonomiczne i środowiskowe odbierają 
                 dzieciakom szanse na korzystanie z edukacji na równi z rówieśnikami. Trudności z nauką lub drobne zaległości 
                 kwalifikują dziecko jako „leniwe” i skazują na traumę w szkole. Bezradne dzieci, które w domu nie mają do kogo 
                 zwrócić się po pomoc, a w szkole wstydzą się o nią prosić, stają się niewidzialne i tracą szanse na wymarzoną 
@@ -19,7 +19,7 @@ const About = () => {
                 <p className="mission-text">Naszą misją jest uczynić wszystkie te dzieci widzialnymi.</p>
                 <p className="mission-text mission-text-second">
                     Dajemy młodym ludziom narzędzia w postaci korepetycji i dostępu do zajęć dodatkowych, aby mogły budować sobie 
-                    taką przyszłość, o jakiej marzą. Wszystkie dzieci mogą latać, wystarczy tylko umożliwić im rozwinięcie skrzydeł.
+                    taką przyszłość, o jakiej marzą. <span>Wszystkie dzieci mogą latać, wystarczy tylko umożliwić im rozwinięcie skrzydeł.</span>
                 </p>
                 <hr></hr>
             </div>

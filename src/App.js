@@ -9,6 +9,7 @@ import Volunteer from './components/Volunteer';
 import Support from './components/Support';
 import Contact from './components/Contact';
 import SideMenu from './components/SideMenu';
+import Footer from './components/Footer';
 
 class App extends React.Component {
 
@@ -35,6 +36,7 @@ class App extends React.Component {
           <Route path='/wsparcie' component={Support} />
           <Route path='/kontakt' component={Contact} />
         </Switch>
+        <Footer />
         </div>
       </BrowserRouter>
     )

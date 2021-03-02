@@ -1,13 +1,12 @@
 header {
     width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: white;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // background-color: white;
 
     .logo-holder {
-        margin-top: 80px;
+        // margin-top: 80px;
         height: 350px;
         background-image: url('../../assets/logobiel.jpg');
         background-size: contain;
@@ -24,14 +23,43 @@ header {
         }
     }
 
+    .facts-holder {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .fact {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 40px 10px 30px;
+
+            img {
+                width: 150px;
+                height: 150px;
+            }
+
+            p {
+                color: #253789;
+                width: 80%;
+                margin: 20px auto;
+                text-align: center;
+            }
+        }
+    }
+
     .header-text {
         font-family: 'Yanone Kaffeesatz', sans-serif;
         font-size: 1.4rem;
         width: 700px;
-        position: absolute;
-        top: 450px;
-        left: 50%;
-        transform: translateX(-50%);
+        margin: 20px auto;
+        // position: absolute;
+        // top: 450px;
+        // left: 50%;
+        // transform: translateX(-50%);
         z-index: 5;
         color: #253789;
         letter-spacing: 2px;
@@ -53,42 +81,5 @@ header {
         }
     }
 
-    .socials-holder {
-        width: 120px;
-        display: flex;
-        justify-content: space-between;
-        position: absolute;
-        bottom: 30px;
-        left: 50%;
-        transform: translateX(-50%);
-
-
-        .face {
-            width: 40px;
-            height: 40px;
-            background-image: url('../../assets/fc.png');
-            background-position: center;
-            background-size: cover;
-            cursor: pointer;
-
-            @media(max-width: 650px) {
-                width: 35px;
-                height: 35px;
-            }
-        }
-
-        .inst {
-            width: 40px;
-            height: 40px;
-            background-image: url('../../assets/inst.png');
-            background-position: center;
-            background-size: cover;
-            cursor: pointer;
-
-            @media(max-width: 650px) {
-                width: 35px;
-                height: 35px;
-            }
-        }
-    }
+    
 }
