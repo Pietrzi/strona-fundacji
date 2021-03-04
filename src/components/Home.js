@@ -2,11 +2,22 @@ import React from 'react';
 import First from '../assets/hand.svg';
 import Second from '../assets/heart.svg';
 import Third from '../assets/star.svg';
+import ReactPlayer from 'react-player';
 
 const Home = () => {
     return (
         <header>
             <div className="logo-holder"></div>
+            <div className='player-wrapper'>
+                    <ReactPlayer
+                    className='react-player'
+                    url='https://vimeo.com/516124669/7ccc529533'
+                    width='100%'
+                    height='100%'
+                    controls={true}
+                    />
+                </div>
+            <p className="home-text">Dajemy dzieciom narzędzia do budowania wymarzonej przyszłośći</p>
             <div className="facts-holder">
                 <div className="fact">
                     <img src={First} />

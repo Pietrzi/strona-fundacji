@@ -28,21 +28,25 @@ const About = () => {
                     <img src={marta} alt="marta" className="member-img"/>
                     <p className="member-name">Marta Osadkowska</p>
                     <p className="member-title">Prezes Fundacji</p>
+                    <p className="member-desc">Chciała być człowiekiem nauki, ale chęć pomocy dzieciom wygrała. Jest społecznikiem, najbardziej motywuje ją dokonywanie zmian. Zawsze marzyła o robieniu czegoś dobrego dla innych. Lubi książki i wspinaczkę, spokoju szuka w jodze. Na pytanie: w góry czy nad morze, zawsze wybierze góry. Pisze felietony i reportaże dla magazynu The Mother MAG. Po kilku latach wolontariatu w Pieczy Zastępczej postanowiła zrobić dla dzieciaków więcej, takie są początki Fundacji Widzialne Dzieci.</p>
                 </div>
                 <div className="member-box">
                     <img src={edyta} alt="edyta" className="member-img"/>
                     <p className="member-name">Edyta Ogrodowiak</p>
                     <p className="member-title">Zarząd Fundacji</p>
+                    <p className="member-desc">Jak to dobrze mieć Edytę w swojej drużynie! W domowym zaciszu to mama, żona, nasza przyjaciółka, która zawsze nakarmi, z ciekawością wysłucha, poleci dobrą książkę, czasem zniknie na chwilę, by zaopiekować się ogrodem. Zdecydowanie wie, jak cieszyć się z małych rzeczy! Poznajcie też jej drugą naturę. To bardzo dobrze zorganizowana, konkretna i skuteczna pani prezes i przedsiębiorczyni. Inspirują ją historie innych ludzi, nic dziwnego, że aktywnie tworzy lokalne społeczności.</p>
                 </div>
                 <div className="member-box">
                     <img src={kasia} alt="kasia" className="member-img"/>
                     <p className="member-name">Katarzyna Dołżycka</p>
                     <p className="member-title">Rada Fundacji</p>
+                    <p className="member-desc">Kto zawsze ma przygotowany plan A, B, a także C, D i E? Kasia. Ta strateżka ma ścisły umysł, a także moc w dążeniu do celu. I choć lubi mieć wszystko poukładane i zaplanowane, co jakiś czas opuszcza wygodną strefę komfortu, by dać się zaskoczyć i sprawdzić, gdzie są jej limity. Gromadzi w pamięci historie spotkanych ludzi, bo nie może oprzeć się swojej ciekawości drugiego człowieka.</p>
                 </div>
                 <div className="member-box">
                     <img src={basia} alt="basia" className="member-img"/>
                     <p className="member-name">Barbara Gajos</p>
                     <p className="member-title">Rada Fundacji</p>
+                    <p className="member-desc">Kobieta-excel. Na co dzień przedsiębiorczyni, księgowa, która wszystko przekłada na cyfry i tabelki. Uwielbia swoją pracę tak jak swoją rodzinę. Jest żoną oraz mamą nastoletnich bliźniaków - można zobaczyć, że niezły z nich zespół, gdy grają razem w planszówki. Gdy potrzebuje odskoczni, znika w ogrodzie. Ale w nim również potrafi się zapomnieć. Bo gdy już coś robi, to na 100%.</p>
                 </div>
             </div>
             <div className="statut-container">

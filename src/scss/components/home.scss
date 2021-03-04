@@ -7,7 +7,7 @@ header {
 
     .logo-holder {
         // margin-top: 80px;
-        height: 350px;
+        height: 320px;
         background-image: url('../../assets/logobiel.jpg');
         background-size: contain;
         background-position: center;
@@ -21,6 +21,22 @@ header {
         @media(max-width: 650px) {
             margin-top: 0;
         }
+    }
+
+    .player-wrapper {
+        height: 280px;
+        width: 500px;
+        margin: 20px auto;
+    }
+
+    .home-text {
+        width: 90%;
+        margin: 60px auto 20px;
+        color: black;
+        font-size: 1.8rem;
+        text-align: center;
+        font-weight: 700;
+        letter-spacing: 1px;
     }
 
     .facts-holder {
@@ -55,7 +71,7 @@ header {
         font-family: 'Yanone Kaffeesatz', sans-serif;
         font-size: 1.4rem;
         width: 700px;
-        margin: 20px auto;
+        margin: 20px auto 40px;
         // position: absolute;
         // top: 450px;
         // left: 50%;
