@@ -15,9 +15,8 @@
         flex-wrap: wrap;
 
         @media(max-width: 1050px) {
+            height: auto;
             margin: 0 auto 0;
-            position: relative;
-            bottom: 50px;
         }
 
         @media(max-width: 650px) {
@@ -35,6 +34,8 @@
 
             @media(max-width: 1050px) {
                 margin-left: 20px;
+                position: relative;
+                bottom: 40px;
             }
 
             @media(max-width: 650px) {
@@ -42,7 +43,7 @@
                 width: 90%;
                 margin-left: 0;
                 position: relative;
-                bottom: 40px;
+                bottom: 20px;
                 z-index: 5;
             }
     
@@ -81,11 +82,13 @@
             @media(max-width: 1050px) {
                 width: 350px;
                 height: 350px;
-                bottom: 50px;
+                bottom: 20px;
             }
 
             @media(max-width: 650px) {
-                bottom: 30px;
+                width: 320px;
+                height: 300px;
+                bottom: 25px;
             }
         }
 
@@ -98,11 +101,26 @@
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+
+        @media(max-width: 1050px) {
+            width: 90%;
+        }
     }
 
     .support-text {
         font-size: 1.8rem;
         text-align: center;
+
+        @media(max-width: 1050px) {
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+        @media(max-width: 1050px) {
+            width: 90%;
+            margin: 0 auto;
+            font-size: 1.4rem;
+        }
     }
 
     button {
@@ -115,6 +133,18 @@
         border: none;
         border-radius: 10px;
         cursor: pointer;
+
+        @media(max-width: 1050px) {
+            width: 280px;
+            height: 44px;
+            font-size: 1.4rem;
+        }
+
+        @media(max-width: 1050px) {
+            width: 260px;
+            height: 42px;
+            font-size: 1.2rem;
+        }
     }
     
     .button-keeper {

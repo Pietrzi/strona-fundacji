@@ -28,7 +28,7 @@ const Support = () => {
             <p className="support-text">Masz inny pomysł? Czekamy na niego!</p>
             <div className="button-keeper">
                 <NavLink to='/kontakt' className="additional-button">
-                    <button>no to dawaj</button>
+                    <button>skontaktuj się z nami</button>
                 </NavLink>
             </div>
         </section>

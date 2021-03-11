@@ -15,11 +15,12 @@ header {
 
         @media(max-width: 1050px) {
             width: 90%;
-            margin: 100px auto 0;
+            margin: 40px auto 60px;
         }
 
         @media(max-width: 650px) {
-            margin-top: 0;
+            height: 180px;
+            margin: 0 auto;
         }
     }
 
@@ -27,6 +28,12 @@ header {
         height: 380px;
         width: 660px;
         margin: 20px auto;
+
+        @media(max-width: 650px) {
+            height: 160px;
+            width: 300px;
+            margin: 0 auto;
+        }
     }
 
     .home-text {
@@ -37,6 +44,15 @@ header {
         text-align: center;
         font-weight: 700;
         letter-spacing: 1px;
+
+        @media(max-width: 1050px) {
+            margin: 80px auto 20px;
+        }
+
+        @media(max-width: 650px) {
+            margin: 40px auto 20px;
+            font-size: 1.4rem;
+        }
     }
 
     .facts-holder {
@@ -44,6 +60,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
 
         .fact {
             width: 300px;
@@ -52,6 +69,10 @@ header {
             justify-content: center;
             align-items: center;
             margin: 40px 10px 30px;
+
+            @media(max-width: 650px) {
+                margin: 10px 10px;
+            }
 
             img {
                 width: 150px;

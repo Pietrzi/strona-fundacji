@@ -16,7 +16,7 @@ const About = () => {
                 zwrócić się po pomoc, a w szkole wstydzą się o nią prosić, stają się niewidzialne i tracą szanse na wymarzoną 
                 przyszłość.
                 </p>
-                <p className="mission-text">Naszą misją jest uczynić wszystkie te dzieci widzialnymi.</p>
+                <p className="mission-text"><span>Naszą misją jest uczynić wszystkie te dzieci widzialnymi.</span></p>
                 <p className="mission-text mission-text-second">
                     Dajemy młodym ludziom narzędzia w postaci korepetycji i dostępu do zajęć dodatkowych, aby mogły budować sobie 
                     taką przyszłość, o jakiej marzą. <span>Wszystkie dzieci mogą latać, wystarczy tylko umożliwić im rozwinięcie skrzydeł.</span>
