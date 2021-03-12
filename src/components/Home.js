@@ -7,7 +7,7 @@ import ReactPlayer from 'react-player';
 const Home = () => {
     return (
         <header>
-            <div className="logo-holder"></div>
+            {/* <div className="logo-holder"></div> */}
             <div className='player-wrapper'>
                     <ReactPlayer
                     className='react-player'

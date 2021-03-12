@@ -5,6 +5,7 @@ import Hamburger from './Hamburger';
 const Navbar = props => {
     return (
         <nav>
+            <div className="logo-holder"></div>
             <ul>
                 <li>
                     <NavLink to='/'>Home</NavLink>  

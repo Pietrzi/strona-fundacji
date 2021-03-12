@@ -3,10 +3,10 @@ nav {
     // top: 0;
     // left: 0;
     width: 100vw;
-    height: 80px;
+    height: 100px;
     // background-color: rgba(0, 0, 0, 0, 0);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     // z-index: 99;
 
@@ -22,12 +22,25 @@ nav {
         align-items: center;
     }
 
+    .logo-holder {
+        height: 80px;
+        width: 180px;
+        background-image: url('../../assets/logobiel.jpg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 30px;
+        position: relative;
+        bottom: 10px;
+    }
+
     ul {
-        width: 850px;
+        width: 820px;
         height: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-right: 30px;
 
         @media(max-width: 1050px) {
             display: none;
@@ -35,7 +48,7 @@ nav {
 
         li {
             list-style-type: none;
-            font-size: 30px;
+            font-size: 28px;
             font-weight: 700;
             letter-spacing: 1px;
 
