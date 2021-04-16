@@ -36,7 +36,7 @@ class App extends React.Component {
           <Route path='/wsparcie' component={Support} />
           <Route path='/kontakt' component={Contact} />
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
         </div>
       </BrowserRouter>
     )
