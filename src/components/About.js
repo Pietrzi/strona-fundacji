@@ -3,10 +3,13 @@ import marta from '../assets/marta.jpg';
 import edyta from '../assets/edyta.jpg';
 import kasia from '../assets/kasia.jpg';
 import basia from '../assets/basia.jpg';
+import szpagato from '../assets/szpagato.jpg'
 
 const About = () => {
     return (
         <section className="about-section">
+            {/* <img src={szpagato} alt="marta" className="mike-img"/> */}
+            <div className="mikebg-img"></div>
             <div className="mission-holder">
                 <p className="mission-text">
                 <span>Wykluczenie edukacyjne to sytuacja, w której dziecko nie realizuje swojego potencjału rozwojowego z przyczyn 
