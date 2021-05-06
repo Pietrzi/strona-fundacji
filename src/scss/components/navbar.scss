@@ -9,6 +9,11 @@ nav {
         align-items: center;
         margin: 0 auto;
 
+        @media(max-width: 650px) {
+            width: 100%;
+            height: 80px;
+        }
+
         .logo-holder {
             height: 125px;
             width: 290px;
@@ -25,8 +30,8 @@ nav {
                 margin-left: 20px;
             }
     
-            @media(max-width: 1050px) {
-                height: 55px;
+            @media(max-width: 650px) {
+                height: 50px;
                 width: 160px;
                 margin-left: 5px;
             }
@@ -36,6 +41,11 @@ nav {
             width: 100px;
             display: flex;
             justify-content: space-between;
+
+            @media(max-width: 650px) {
+                width: 80px;
+                margin-right: 10px;
+            }
     
     
             .face {
@@ -47,8 +57,8 @@ nav {
                 cursor: pointer;
     
                 @media(max-width: 650px) {
-                    width: 35px;
-                    height: 35px;
+                    width: 30px;
+                    height: 30px;
                 }
             }
     
@@ -61,8 +71,8 @@ nav {
                 cursor: pointer;
     
                 @media(max-width: 650px) {
-                    width: 35px;
-                    height: 35px;
+                    width: 30px;
+                    height: 30px;
                 }
             }
         }
@@ -88,13 +98,13 @@ nav {
         }
     
         @media(max-width: 650px) {
-            height: 80px;
+            height: 90px;
+            flex-direction: column;
             justify-content: space-between;
             align-items: center;
+            padding-bottom: 10px;
         }
-    
-        
-    
+
         ul {
             width: 1051px;
             height: 100%;
@@ -150,6 +160,32 @@ nav {
                 a {
                     color: white;
                 }
+            }
+
+        }
+
+        .mobile-support {
+            background-color: #f44337;
+            display: none;
+
+            @media(max-width: 650px) {
+                width: 90%;
+                height: 44px;
+                text-decoration: none;
+                color: #666;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                font-weight: 400;
+            }
+
+            a {
+                color: black;
             }
         }
     }

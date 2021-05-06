@@ -9,7 +9,7 @@ import Volunteer from './components/Volunteer';
 import Support from './components/Support';
 import Contact from './components/Contact';
 import SideMenu from './components/SideMenu';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 class App extends React.Component {
 

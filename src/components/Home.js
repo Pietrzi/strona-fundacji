@@ -1,7 +1,7 @@
 import React from 'react';
-import First from '../assets/hand.svg';
-import Second from '../assets/heart.svg';
-import Third from '../assets/star.svg';
+// import First from '../assets/hand.svg';
+// import Second from '../assets/heart.svg';
+// import Third from '../assets/star.svg';
 import ReactPlayer from 'react-player';
 import { NavLink } from 'react-router-dom';
 

@@ -3,7 +3,7 @@ import marta from '../assets/marta.jpg';
 import edyta from '../assets/edyta.jpg';
 import kasia from '../assets/kasia.jpg';
 import basia from '../assets/basia.jpg';
-import szpagato from '../assets/szpagato.jpg'
+// import szpagato from '../assets/szpagato.jpg'
 
 const About = () => {
     return (

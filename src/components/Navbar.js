@@ -12,7 +12,7 @@ const Navbar = props => {
                     <a href="https://instagram.com/widzialnedzieci?igshid=7t72o1u2326z" target="_blank" rel="noreferrer"><div className="inst"></div></a>
                 </div>
             </div>
-            <dvi className="nav">
+            <div className="nav">
                 <ul>
                     <li>
                         <NavLink to='/ofundacji'>O fundacji</NavLink>
@@ -31,7 +31,8 @@ const Navbar = props => {
                     </li>
                 </ul>
                 <Hamburger click={props.menuHandler} />
-            </dvi>
+                <NavLink className="mobile-support" to='/wsparcie'>Wesprzyj</NavLink>
+            </div>
         </nav>
     )
 }

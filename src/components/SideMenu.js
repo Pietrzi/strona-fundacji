@@ -20,9 +20,9 @@ const SideMenu = props => {
                 <li onClick={props.click}>
                     <NavLink className="menu__link__element" to='/wolontariat'>Wolontariat</NavLink>
                 </li>
-                <li onClick={props.click}>
+                {/* <li onClick={props.click}>
                     <NavLink className="menu__link__element" to='/wsparcie'>Wesprzyj</NavLink>
-                </li>
+                </li> */}
                 <li onClick={props.click}>
                     <NavLink className="menu__link__element" to='/kontakt'>Kontakt</NavLink>
                 </li>

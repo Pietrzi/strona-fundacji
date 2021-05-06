@@ -53,6 +53,10 @@ header {
         background-color: #f44337;
         padding-top: 40px;
 
+        @media(max-width: 650px) {
+            height: 320px;
+        }
+
         .home-text {
             width: 700px;
             margin: 0 auto;
@@ -68,7 +72,8 @@ header {
             }
     
             @media(max-width: 650px) {
-                margin: 40px auto 20px;
+                width: 90%;
+                margin: 5px auto 15px;
                 font-size: 1.4rem;
             }
         }
@@ -87,6 +92,12 @@ header {
             text-transform: uppercase;
             letter-spacing: 1px;
             transition: all 0.2s ease-out;
+
+            @media(max-width: 650px) {
+                font-size: 0.9rem;
+                width: 220px;
+                height: 40px;
+            }
 
             &:hover {
                 width: 260px;
@@ -111,6 +122,10 @@ header {
         letter-spacing: 3px;
         margin-top: 60px;
 
+        @media(max-width: 650px) {
+            font-size: 2.2rem;
+            margin-top: 40px;
+        }
     }
 
     .facts-holder {
@@ -132,6 +147,7 @@ header {
 
             @media(max-width: 650px) {
                 margin: 10px 10px;
+                height: 240px;
             }
 
             img {
@@ -153,6 +169,10 @@ header {
                 text-align: center;
                 font-weight: 300;
                 letter-spacing: 2px;
+
+                @media(max-width: 650px) {
+                    width: 90%;
+                }
             }
         }
     }
@@ -178,9 +198,10 @@ header {
         }
 
         @media(max-width: 650px) {
-            width: 80%;
+            width: 100%;
             font-size: 0.8rem;
             top: 350px;
+            height: 320px;
         }
 
         h2 {
@@ -189,6 +210,12 @@ header {
             font-weight: 300;
             margin: 0 auto;
             text-align: center;
+
+            @media(max-width: 650px) {
+                width: 100%;
+                font-size: 1.6rem;
+                width: 80%;
+            }
         }
 
         hr {
