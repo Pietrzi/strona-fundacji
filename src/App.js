@@ -9,12 +9,14 @@ import Volunteer from './components/Volunteer';
 import Support from './components/Support';
 import Contact from './components/Contact';
 import SideMenu from './components/SideMenu';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
+import Policyy from './components/Policyy';
 
 class App extends React.Component {
 
   state = {
-    sideMenu: false
+    sideMenu: false,
+    policy: false
   };
 
   sideMenuClickHandler = () => {
@@ -23,22 +25,44 @@ class App extends React.Component {
     })
   }
 
+  policyOnClickHandler = () => {
+    this.setState({
+      policy: true
+    })
+  }
+
+  policyOffClickHandler = () => {
+    this.setState({
+      policy: false
+    })
+  }
+
   render() {
+
+    let policy;
+    if (this.state.policy) {
+      policy = <Policyy click={this.policyOffClickHandler}/>
+    }
+
+
     return (
-      <BrowserRouter>
-        <div className="body-wrapper">
-        <Navbar menuHandler={this.sideMenuClickHandler} />
-        <SideMenu show={this.state.sideMenu} click={this.sideMenuClickHandler}/>
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route path='/ofundacji' component={About} />
-          <Route path='/wolontariat' component={Volunteer} />
-          <Route path='/wsparcie' component={Support} />
-          <Route path='/kontakt' component={Contact} />
-        </Switch>
-        {/* <Footer /> */}
-        </div>
-      </BrowserRouter>
+      <>
+        {policy}
+        <BrowserRouter>
+          <div className="body-wrapper">
+          <Navbar menuHandler={this.sideMenuClickHandler} />
+          <SideMenu show={this.state.sideMenu} click={this.sideMenuClickHandler}/>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route path='/ofundacji' component={About} />
+            <Route path='/wolontariat' component={Volunteer} />
+            <Route path='/wsparcie' component={Support} />
+            <Route path='/kontakt' component={Contact} />
+          </Switch>
+          <Footer click={this.policyOnClickHandler}/>
+          </div>
+        </BrowserRouter>
+      </>
     )
   }
 }

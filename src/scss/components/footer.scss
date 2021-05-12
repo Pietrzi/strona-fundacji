@@ -5,6 +5,14 @@ footer {
     justify-content: center;
     align-items: center;
 
+    p {
+        color: #253789;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
     .socials-holder {
         width: 120px;
         display: flex;
