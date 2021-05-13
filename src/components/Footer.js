@@ -4,6 +4,7 @@ const Footer = (props) => {
     return (
         <footer>
             <p onClick={props.click}>Polityka Prywatności</p>
+            <p onClick={props.klik}>Polityka Cookies</p>
         </footer>
     )
 }

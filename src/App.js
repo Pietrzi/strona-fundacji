@@ -11,12 +11,14 @@ import Contact from './components/Contact';
 import SideMenu from './components/SideMenu';
 import Footer from './components/Footer';
 import Policyy from './components/Policyy';
+import Cookie from './components/Cookie';
 
 class App extends React.Component {
 
   state = {
     sideMenu: false,
-    policy: false
+    policy: false,
+    cookie: false
   };
 
   sideMenuClickHandler = () => {
@@ -37,6 +39,18 @@ class App extends React.Component {
     })
   }
 
+  cookieOnClickHandler = () => {
+    this.setState({
+      cookie: true
+    })
+  }
+
+  cookieOffClickHandler = () => {
+    this.setState({
+      cookie: false
+    })
+  }
+
   render() {
 
     let policy;
@@ -44,10 +58,15 @@ class App extends React.Component {
       policy = <Policyy click={this.policyOffClickHandler}/>
     }
 
+    let cookie;
+    if (this.state.cookie) {
+      cookie = <Cookie klik={this.cookieOffClickHandler}/>
+    }
 
     return (
       <>
         {policy}
+        {cookie}
         <BrowserRouter>
           <div className="body-wrapper">
           <Navbar menuHandler={this.sideMenuClickHandler} />
@@ -59,7 +78,7 @@ class App extends React.Component {
             <Route path='/wsparcie' component={Support} />
             <Route path='/kontakt' component={Contact} />
           </Switch>
-          <Footer click={this.policyOnClickHandler}/>
+          <Footer click={this.policyOnClickHandler} klik={this.cookieOnClickHandler}/>
           </div>
         </BrowserRouter>
       </>
