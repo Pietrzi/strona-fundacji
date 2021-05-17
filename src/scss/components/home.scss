@@ -31,11 +31,31 @@ header {
         background-repeat: no-repeat;
         background-position-x: 25%;
         background-size: cover;
+        position: relative;
         // background-color: #111;
 
         @media(max-width: 650px) {
             background-size: cover;
             height: 100px;
+        }
+
+        .invibutton {
+            position: absolute;
+            top: 266px;
+            left: 750px;
+            width: 500px;
+            height: 36px;
+            background-color: rgba(37, 55, 137, 0);
+            // border: 1px solid black;
+            color: rgba(37, 55, 137, 0);
+
+            @media(max-width: 650px) {
+                width: 250px;
+                position: relative;
+                margin: 0 auto;
+                top: 0;
+                left: 0;
+            }
         }
 
         // .player-wrapper {
