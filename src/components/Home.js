@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <header>
             <div className="header-player-container">
-                <a href="https://www.nike.com/pl/" target="_blank" rel="noreferrer"  className="invibutton">zapisz się</a>
+                <a href="https://www.subscribepage.com/konnferencjadlarodzicow" target="_blank" rel="noreferrer"  className="invibutton">zapisz się</a>
                 {/* <div className='player-wrapper'>
                         <ReactPlayer
                         className='react-player'

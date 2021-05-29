@@ -57,12 +57,15 @@
     }
 
     .last-volunteer {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .volunteer-topic {
-        margin: 20px 0 20px;
-        font-size: 1.4rem;
+        // margin: 40px auto 40px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 1.6rem;
         color: #253789;
         font-weight: 700;
 
@@ -73,3 +76,62 @@
     }
 }
 
+.volnav-section {
+    width: 100%;
+
+    .main-vol-pic {
+        width: 800px;
+        height: 600px;
+        background-image: url('../../assets/aawol.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 40px auto 20px;
+    }
+
+    .vol-quote {
+        width: 800px;
+        margin: 0 auto 40px;
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        line-height: 24px;
+        text-align: center;
+        color: #253789;
+        font-weight: 700;
+    }
+
+    .vol-links {
+        width: 1000px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .vol-link {
+            width: 400px;
+            height: 260px;
+            margin-bottom: 40px;
+            background-image: url('../../assets/aawol.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .info {
+            background-image: url('../../assets/aamen.jpg');
+        }
+
+        .kids {
+            background-image: url('../../assets/aadzieci.jpg');
+        }
+
+        .junior {
+            background-image: url('../../assets/aajun.jpg');
+        }
+
+        .senior {
+            background-image: url('../../assets/aanes.jpg');
+        }
+    }
+}

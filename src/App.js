@@ -12,6 +12,10 @@ import SideMenu from './components/SideMenu';
 import Footer from './components/Footer';
 import Policyy from './components/Policyy';
 import Cookie from './components/Cookie';
+import VolInfo from './components/VolInfo';
+import Kids from './components/Kids';
+import Teen from './components/Teen';
+import Seniors from './components/Seniors';
 
 class App extends React.Component {
 
@@ -77,6 +81,10 @@ class App extends React.Component {
             <Route path='/wolontariat' component={Volunteer} />
             <Route path='/wsparcie' component={Support} />
             <Route path='/kontakt' component={Contact} />
+            <Route path='/info' component={VolInfo} />
+            <Route path='/dzieci' component={Kids} />
+            <Route path='/mlodziez' component={Teen} />
+            <Route path='/seniorzy' component={Seniors} />
           </Switch>
           <Footer click={this.policyOnClickHandler} klik={this.cookieOnClickHandler}/>
           </div>
