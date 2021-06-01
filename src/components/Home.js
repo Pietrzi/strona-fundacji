@@ -9,8 +9,8 @@ const Home = () => {
     return (
         <header>
             <div className="header-player-container">
-                <a href="https://www.subscribepage.com/konnferencjadlarodzicow" target="_blank" rel="noreferrer"  className="invibutton">zapisz się</a>
-                {/* <div className='player-wrapper'>
+                {/* <a href="https://www.subscribepage.com/konnferencjadlarodzicow" target="_blank" rel="noreferrer"  className="invibutton">zapisz się</a> */}
+                <div className='player-wrapper'>
                         <ReactPlayer
                         className='react-player'
                         url='https://vimeo.com/516124669/7ccc529533'
@@ -18,7 +18,7 @@ const Home = () => {
                         height='100%'
                         controls={true}
                         />
-                </div> */}
+                </div>
             </div>
             <div className="home-text-container">
                 <p className="home-text">Dajemy dzieciom narzędzia do budowania wymarzonej przyszłośći</p>

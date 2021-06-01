@@ -82,11 +82,17 @@
     .main-vol-pic {
         width: 800px;
         height: 600px;
-        background-image: url('../../assets/aawol.jpg');
+        background-image: url('../../assets/aadzieci.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
         margin: 40px auto 20px;
+
+        @media(max-width: 650px) {
+            width: 90%;
+            height: 200px;
+            // margin: 10px auto 20px;
+        }
     }
 
     .vol-quote {
@@ -98,6 +104,12 @@
         text-align: center;
         color: #253789;
         font-weight: 700;
+
+        @media(max-width: 650px) {
+            width: 90%;
+            font-size: 1.2rem;
+            // margin: 10px auto 20px;
+        }
     }
 
     .vol-links {
@@ -108,6 +120,11 @@
         align-items: center;
         flex-wrap: wrap;
 
+        @media(max-width: 650px) {
+            width: 90%;
+            margin: 10px auto 20px;
+        }
+
         .vol-link {
             width: 400px;
             height: 260px;
@@ -116,6 +133,12 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+
+            @media(max-width: 650px) {
+                width: 280px;
+                height: 180px;
+                margin: 0 auto;
+            }
         }
 
         .info {
@@ -123,7 +146,7 @@
         }
 
         .kids {
-            background-image: url('../../assets/aadzieci.jpg');
+            // background-image: url('../../assets/aawol.jpg');
         }
 
         .junior {
